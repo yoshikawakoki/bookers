@@ -1,3 +1,60 @@
-// Place all the styles related to the books controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  font-size: 26px;
+}
+
+.book-box {
+  display: flex;
+}
+
+.title-box {
+  width: 192px;
+  height: 24px;
+  padding: 1px 1px 5px;
+  text-align: center;
+}
+
+.body-box {
+  width: 400px;
+  height: 24px;
+  padding: 1px 1px 5px;
+  text-align: center;
+}
+
+.white-box {
+  width: 146px;
+  height: 24px;
+  padding: 1px 1px 5px;
+}
+
+.book-text {
+  display: flex;
+}
+
+.title-item {
+  width: 192px;
+  height: 24px;
+  padding: 1px 5px 7px;
+}
+
+.body-item {
+  width: 400px;
+  height: 24px;
+  padding: 1px 5px 7px;
+}
+
+.action {
+  width: 46px;
+  height: 26px;
+  padding: 1px 5px 7px;
+}
+
+.new-box{
+  font-size: 19px;
+  margin: 16px 0 16px;
+}
