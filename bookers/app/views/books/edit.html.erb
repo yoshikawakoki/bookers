@@ -8,7 +8,7 @@
 <div></div>
 <%= f.submit "Update Book" %>
 
-<span><%= link_to "Show", :back %></span>
-<span><%= link_to "Back", "" %></span>
+<span><%= link_to "Show", book_path(@book) %></span>
+<span><%= link_to "Back", "/books" %></span>
 
 <% end %>
