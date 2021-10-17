@@ -11,8 +11,8 @@
        <section class="book-text">
          <p class="title-item"><%= book.title %></p>
          <p class="body-item"><%= book.body %></p>
-         <div class="action"><a href="/books/show">Show</a></div>
-         <div class="action"><a href="/books/edit">Edit</a></div>
+         <span><%= link_to "Show", book_path(book.id) %></span>
+         <span><%= link_to "Edit", edit_book_path(book.id) %></span>
          <div class="action"><p>Destroy</p></div>
        </section>
        <% end %>
