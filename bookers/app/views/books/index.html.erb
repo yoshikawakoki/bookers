@@ -1,6 +1,6 @@
 <body>
   <h1 class="box">Books</h1>
-  <div>
+  <table>
       <div class="book-box">
        <p class="title-box">Title</p>
        <p class="body-box">Body</p>
@@ -16,11 +16,19 @@
          <span class="action"><%= link_to "Destroy", book_path(book.id), method: :delete %></span>
        </section>
        <% end %>
-    </div>
+    </table>
 
   </div>
 
   <h2 class="new-box">New book</h2>
+
+  <% if @book.errors.any? %>
+   <%= @book.errors.count %>件のエラーが発生しました。
+   <% @book.errors.full_messages.each do |message| %>
+   <%= message %>
+   <% end %>
+   <% end %>
+
   <%= form_with model:@book, local:true do |f| %>
 
   <h4>Title</h4>

@@ -1,9 +1,11 @@
-<p><strong>Title: </strong><%= @book.title %></p>
-<p><strong>Body: </strong><%= @book.body %></p>
+<body>
+<p class="show-text"><strong>Title: </strong><%= @book.title %></p>
+<p class="show-text"><strong>Body: </strong><%= @book.body %></p>
 
 
 <div class="edit-item">
-<span><%= link_to "Edit", edit_book_path(@book) %></span>
+<span class="space1"><%= link_to "Edit", edit_book_path(@book) %></span>
 <p> | </p>
-<span><%= link_to "Back", "/books" %></span>
+<span class="space2"><%= link_to "Back", "/books" %></span>
 </div>
+</body>

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 33px;
+}
+
+.home-box {
+  margin: 33px;
+}
+
+.text-item {
+  margin-top: 33px;
+}
+
+.flash-message {
+  color: red;
+}
+
+.box {
+  font-size: 26px;
+}
+
+.book-box {
+  display: flex;
+}
+
+.title-box {
+  width: 192px;
+  height: 24px;
+  padding: 1px 1px 5px;
+  text-align: center;
+}
+
+.body-box {
+  width: 400px;
+  height: 24px;
+  padding: 1px 1px 5px;
+  text-align: center;
+}
+
+.white-box {
+  width: 146px;
+  height: 24px;
+  padding: 1px 1px 5px;
+}
+
+.book-text {
+  display: flex;
+}
+
+.title-item {
+  width: 192px;
+  height: 24px;
+  padding: 1px 5px 7px;
+}
+
+.body-item {
+  width: 400px;
+  height: 24px;
+  padding: 1px 5px 7px;
+}
+
+.action {
+  width: 46px;
+  height: 26px;
+  padding: 1px 5px 7px;
+}
+
+.new-box{
+  font-size: 19px;
+  margin: 16px 0 16px;
+}
+
+.edit-item {
+  display: flex;
+  margin-top: 5px;
+}
+
+.show-text {
+  margin: 33px;
+}
+
+.edit-title {
+  margin: 17px 0;
+}
+
+.update-button {
+  padding: 1px 6px;
+}
+
+.space1 {
+  margin-right: 5px;
+}
+
+.space2 {
+  margin-left: 5px;
+}
