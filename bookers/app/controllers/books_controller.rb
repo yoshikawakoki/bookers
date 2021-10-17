@@ -32,6 +32,7 @@ class BooksController < ApplicationController
     redirect_to book_path(@book), notice: "book was successfully update."
     else
       render:edit
+      
     end
   end
 
