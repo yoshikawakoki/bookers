@@ -11,9 +11,9 @@
        <section class="book-text">
          <p class="title-item"><%= book.title %></p>
          <p class="body-item"><%= book.body %></p>
-         <span><%= link_to "Show", book_path(book.id) %></span>
-         <span><%= link_to "Edit", edit_book_path(book.id) %></span>
-         <div class="action"><p>Destroy</p></div>
+         <span class="action"><%= link_to "Show", book_path(book.id) %></span>
+         <span class="action"><%= link_to "Edit", edit_book_path(book.id) %></span>
+         <span class="action"><%= link_to "Destroy", book_path(book.id), method: :delete %></span>
        </section>
        <% end %>
     </div>
